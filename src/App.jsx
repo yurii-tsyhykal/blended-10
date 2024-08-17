@@ -14,8 +14,8 @@ export const App = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/country" element={<SearchCountry />} />
-          <Route path="/country/:countryId" element={<Country /> } />
-          <Route path="*" element={<Navigate to="/" /> } />
+          <Route path="/country/:countryId" element={<Country />} />
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </Suspense>
     </>
